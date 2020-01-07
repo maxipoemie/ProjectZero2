@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+}
+
+.menu
+{
+display: flex;
+margin: 15px;
+}
+li
+{
+  border-left: 6px solid white;
+  background-color: navajowhite;
+  width: 100px;
+  display: inline-block;
+  padding: 20px
+}
+
+li:hover{
+  background-color: grey;
+}
+
+li#active{
+  background-color: grey;
+}
