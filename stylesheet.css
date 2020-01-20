@@ -5,21 +5,33 @@ h1 {
 .menu
 {
 display: flex;
-margin: 15px;
+margin: 0px;
 }
 li
 {
-  border-left: 6px solid white;
-  background-color: navajowhite;
-  width: 100px;
-  display: inline-block;
-  padding: 20px
-}
+  border-left: 0px solid white;
 
+  display: inline-block;
+
+}
+a{
+  padding: 20px;
+  background-color: #ffca0a;
+  width: 70px;
+}
 li:hover{
-  background-color: grey;
+  background-color: #ffca0a;
 }
 
 li#active{
-  background-color: grey;
+  background-color: #ffee33;
+}
+
+body{
+  background-color: #99FF2D
+}
+
+p {
+  text-align: center;
+
 }
