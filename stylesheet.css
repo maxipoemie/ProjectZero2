@@ -16,19 +16,19 @@ li
 }
 a{
   padding: 20px;
-  background-color: #ffca0a;
+  background-color: #ffe072;
   width: 70px;
 }
 li:hover{
-  background-color: #ffca0a;
+  background-color: #ffe072;
 }
 
 li#active{
-  background-color: #ffee33;
+  background-color: #fff26b;
 }
 
 body{
-  background-color: #99FF2D
+  background-color: #ACFF91
 }
 
 p {
