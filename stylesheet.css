@@ -2,17 +2,21 @@ h1 {
   text-align: center;
 }
 
-.menu
-{
-display: flex;
-margin: 0px;
+.menu {
+  position: absolute;
+  display: flex;
+  margin: 0px;
 }
+
+.titel {
+  position: relative;
+  }
+
 li
 {
   border-left: 0px solid white;
 
   display: inline-block;
-  padding: 20px
 
 }
 a{
