@@ -35,3 +35,17 @@ p {
   text-align: center;
 
 }
+.lo{
+  display: flex;
+  align-items: flex-end;
+}
+.Rb{
+  display: flex;
+  justify-content: flex-end;
+}
+.mapsOosterpark{
+  text-align: left;
+}
+.mapsAmstelpark{
+  text-align: right;
+}
