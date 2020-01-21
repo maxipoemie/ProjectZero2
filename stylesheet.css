@@ -48,8 +48,8 @@ p {
   justify-content: flex-end;
 }
 .mapsOosterpark{
-  text-align: left;
+  text-align: right;
 }
 .mapsAmstelpark{
-  text-align: right;
+  text-align: left;
 }
