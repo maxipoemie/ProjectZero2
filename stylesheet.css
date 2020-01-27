@@ -14,7 +14,8 @@ li
   display: inline-block;
 
 }
-a{
+a
+{
   padding: 20px;
   background-color: #ffe072;
   width: 70px;
@@ -34,4 +35,9 @@ body{
 p {
   text-align: center;
 
+}
+.amsterdam
+{
+  display: flex;
+  justify-content: flex-end;
 }
