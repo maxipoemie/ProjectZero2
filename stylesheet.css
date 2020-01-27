@@ -2,11 +2,22 @@ h1 {
   text-align: center;
 }
 
-.menu
-{
-display: flex;
-margin: 0px;
+.menu {
+  background-color: #ffe072;
+  position: absolute;
+  display: flex;
+  margin: 0px;
 }
+
+.titel {
+  position: relative;
+  }
+
+.logo {
+
+}
+
+
 li
 {
   border-left: 0px solid white;
@@ -17,7 +28,6 @@ li
 a
 {
   padding: 20px;
-  background-color: #ffe072;
   width: 70px;
 }
 li:hover{
@@ -33,8 +43,38 @@ body{
 }
 
 p {
+  background-color: #ACFF91
+  text-align: left;
+}
+.lo{
+  display: flex;
+  align-items: flex-end;
+}
+.Rb{
+  display: flex;
+  justify-content: flex-end;
+}
+.mapsOosterpark{
+  text-align: right;
+}
+.mapsAmstelpark{
+  text-align: left;
+}
+.locaties{
   text-align: center;
+}
 
+.link {
+  display: flex;
+  flex-direction: column;
+  background-color:	#ACFF91
+}
+.link > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 30px;
 }
 .amsterdam
 {
