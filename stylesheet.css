@@ -3,6 +3,7 @@ h1 {
 }
 
 .menu {
+  background-color: #ffe072;
   position: absolute;
   display: flex;
   margin: 0px;
@@ -12,6 +13,11 @@ h1 {
   position: relative;
   }
 
+.logo {
+
+}
+
+
 li
 {
   border-left: 0px solid white;
@@ -19,9 +25,9 @@ li
   display: inline-block;
 
 }
-a{
+a
+{
   padding: 20px;
-  background-color: #ffe072;
   width: 70px;
 }
 li:hover{
@@ -37,7 +43,8 @@ body{
 }
 
 p {
-  text-align: center;
+  background-color: #ACFF91
+  text-align: left;
 }
 .lo{
   display: flex;
@@ -53,9 +60,27 @@ p {
 .mapsAmstelpark{
   text-align: left;
 }
-.filmpje{
-  text-align: center;
-}
 .locaties{
   text-align: center;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  background-color:	#ACFF91
+}
+.link > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 30px;
+}
+.amsterdam
+{
+  display: flex;
+  justify-content: flex-end;
+}
+.contact{
+  text-align:center;
 }
