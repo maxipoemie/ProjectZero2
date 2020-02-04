@@ -2,38 +2,39 @@ h1 {
   text-align: center;
 }
 
-/* .menu {
+.menu {
   background-color: #ffe072;
   position: absolute;
   display: flex;
   margin: 0px;
-} */
+}
 
 .titel {
   position: relative;
   }
 
 .logo {
+
 }
 
 
-li {
+li
+{
   border-left: 0px solid white;
+
   display: inline-block;
 
 }
 a
 {
-  margin-top: 200px;
-  width: 70px;
   padding: 20px;
-  background-color: khaki;
+  width: 70px;
 }
-a:hover{
+li:hover{
   background-color: #ffe072;
 }
 
-.active{
+li#active{
   background-color: #fff26b;
 }
 
@@ -91,7 +92,6 @@ p {
   text-align:center;
 }
 
-<<<<<<< HEAD
 /* Dropdown Button */
 .dropbtn {
   background-color: #ffe072;
@@ -101,13 +101,11 @@ p {
   border: none;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -131,11 +129,3 @@ p {
 
 
 .dropdown:hover .dropbtn {background-color: #ffe072;}
-=======
-.logo_align {
-  float: left;
-  display: ;
-  margin-right: -615px;
-  margin-top: -15px;
-}
->>>>>>> 09e01b1d67845498b578a0a1e5f7b6e04b7d750c
