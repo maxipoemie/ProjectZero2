@@ -2,38 +2,39 @@ h1 {
   text-align: center;
 }
 
-/* .menu {
+.menu {
   background-color: #ffe072;
   position: absolute;
   display: flex;
   margin: 0px;
-} */
+}
 
 .titel {
   position: relative;
   }
 
 .logo {
+
 }
 
 
-li {
+li
+{
   border-left: 0px solid white;
+
   display: inline-block;
 
 }
 a
 {
-  margin-top: 200px;
-  width: 70px;
   padding: 20px;
-  background-color: khaki;
+  width: 70px;
 }
-a:hover{
+li:hover{
   background-color: #ffe072;
 }
 
-.active{
+li#active{
   background-color: #fff26b;
 }
 
@@ -91,6 +92,8 @@ p {
   text-align:center;
 }
 
+
+
 .logo {
   float: left;
   display: ;
@@ -98,6 +101,39 @@ p {
   margin-top: -15px;
 }
 
-.Display {
-  display:
+.dropbtn {
+  background-color: #ffe072;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff26b;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ffe072;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:hover .dropbtn {background-color: #ffe072;}
