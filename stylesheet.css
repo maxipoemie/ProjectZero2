@@ -13,11 +13,6 @@ h1 {
   position: relative;
   }
 
-.logo {
-
-}
-
-
 li
 {
   border-left: 0px solid white;
@@ -27,14 +22,15 @@ li
 }
 a
 {
+  margin-top: 200px;
   padding: 20px;
   width: 70px;
 }
-li:hover{
+a:hover{
   background-color: #ffe072;
 }
 
-li#active{
+.active{
   background-color: #fff26b;
 }
 
@@ -99,6 +95,10 @@ p {
   display: ;
   margin-right: -615px;
   margin-top: -15px;
+}
+
+.Display {
+  display: contents;
 }
 
 .dropbtn {
