@@ -53,12 +53,19 @@ p {
   display: flex;
   justify-content: flex-end;
 }
-.mapsOosterpark{
-  text-align: right;
+
+.maps{
+  text-align: center;
 }
-.mapsAmstelpark{
+
+#oosterpark{
   text-align: left;
 }
+
+#amstelpark{
+  align-self: flex-end;
+}
+
 .locaties{
   text-align: center;
 }
