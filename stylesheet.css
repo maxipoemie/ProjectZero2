@@ -2,39 +2,38 @@ h1 {
   text-align: center;
 }
 
-.menu {
+/* .menu {
   background-color: #ffe072;
   position: absolute;
   display: flex;
   margin: 0px;
-}
+} */
 
 .titel {
   position: relative;
   }
 
 .logo {
-
 }
 
 
-li
-{
+li {
   border-left: 0px solid white;
-
   display: inline-block;
 
 }
 a
 {
-  padding: 20px;
+  margin-top: 200px;
   width: 70px;
+  padding: 20px;
+  background-color: khaki;
 }
-li:hover{
+a:hover{
   background-color: #ffe072;
 }
 
-li#active{
+.active{
   background-color: #fff26b;
 }
 
@@ -83,4 +82,11 @@ p {
 }
 .contact{
   text-align:center;
+}
+
+.logo_align {
+  float: left;
+  display: ;
+  margin-right: -615px;
+  margin-top: -15px;
 }
