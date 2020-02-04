@@ -91,9 +91,13 @@ p {
   text-align:center;
 }
 
-.logo_align {
+.logo {
   float: left;
   display: ;
   margin-right: -615px;
   margin-top: -15px;
+}
+
+.Display {
+  display:
 }
