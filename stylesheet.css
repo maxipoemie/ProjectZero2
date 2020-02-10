@@ -19,9 +19,8 @@ li {
 }
 a
 {
-  margin-top: 200px;
+  margin-top: 10px;
   padding: 20px;
-  width: 70px;
   padding: 20px;
   background-color: khaki;
 }
@@ -101,9 +100,9 @@ p {
 }
 
 .dropbtn {
-  background-color: #ffe072;
+  background-color: #acff91;
   color: black;
-  padding: 16px;
+  padding: 0px;
   font-size: 16px;
   border: none;
 }
