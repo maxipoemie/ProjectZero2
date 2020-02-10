@@ -137,3 +137,14 @@ p {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color:
+
+}
+
+.dropdown:hover .dropbtn {background-color: #ffe072;}
+
+.logo_align {
+  float: left;
+  display: ;
+  margin-right: -615px;
+  margin-top: -15px;
+}
