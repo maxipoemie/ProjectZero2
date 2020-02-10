@@ -142,4 +142,15 @@ p {
 .dropdown:hover .dropdown-content {display: block;}
 
 
+<<<<<<< HEAD
 .dropdown:hover .dropbtn {background-color:
+=======
+.dropdown:hover .dropbtn {background-color: #ffe072;}
+
+.logo_align {
+  float: left;
+  display: ;
+  margin-right: -615px;
+  margin-top: -15px;
+}
+>>>>>>> 927f33b1113d43ea208e1b5f3b918ea224271e9d
