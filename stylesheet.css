@@ -129,7 +129,6 @@ p {
   z-index: 1;
 }
 
-
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -141,7 +140,6 @@ p {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-
 .dropdown:hover .dropbtn {background-color: #ffe072;}
 
 .logo_align {
@@ -149,4 +147,18 @@ p {
   display: ;
   margin-right: -615px;
   margin-top: -15px;
+}
+
+.Center_Text {
+ text-align: center;
+}
+
+.Deplaatjes {
+  float: left;
+  padding-right: 2px;
+}
+
+.Image_Links {
+  padding-right: 5px;
+  width: 200px;
 }
