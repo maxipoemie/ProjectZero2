@@ -1,3 +1,7 @@
+h1, h2, h2, p, br{
+  font-family: courier;
+}
+
 h1 {
   text-align: center;
 }
