@@ -16,23 +16,23 @@ h1 {
 }
 
 
-li {
+.Pagina li {
   border-left: 0px solid white;
   display: inline-block;
 
 }
-a
+.Pagina a
 {
   margin-top: 10px;
   padding: 20px;
   padding: 20px;
   background-color: khaki;
 }
-a:hover{
+.Pagina a:hover{
   background-color: #ffe072;
 }
 
-.active{
+#active {
   background-color: #fff26b;
 }
 
