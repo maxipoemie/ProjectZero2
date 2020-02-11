@@ -37,7 +37,10 @@ h1 {
 }
 
 body{
-  background-color: #ACFF91
+  background-color: #ACFF91;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
 }
 
 p {
@@ -155,6 +158,10 @@ p {
  text-align: center;
 }
 
+.Center {
+  height: 100%;
+}
+
 .Deplaatjes {
   float: left;
   padding-right: 2px;
@@ -168,4 +175,30 @@ p {
 .nicky {
   font-family: Courier;
   font-size: 20px;
+}
+
+
+#homefooter {
+  bottom: 0;
+  /* left: 0; */
+  position: absolute;
+  /* margin-top:auto; */
+  /* height: 1rem; */
+  width: 100%;
+  height:auto;
+  background-color: #ffe072;
+  text-align: center;
+  /* margin-top: 40px; */
+
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  /*position: fixed;*/
+  width: 100%;
+  /* height: auto; */
+  background-color: #ffe072;
+  text-align: center;
+
 }
